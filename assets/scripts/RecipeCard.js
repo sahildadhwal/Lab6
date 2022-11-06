@@ -184,5 +184,5 @@ class RecipeCard extends HTMLElement {
 
 // A8. TODO: - Define the Class as a customElement so that you can create
 //           'recipe-card' elements
-
-customElement.define('recipe-card', RecipeCard);
+// TYPO IN A8!! its plural customElement(s)
+customElements.define('recipe-card', RecipeCard);
